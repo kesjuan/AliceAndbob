@@ -8,8 +8,7 @@ public class Greeting {
 
     public static void main(String[] args){
         Scanner scanner1 = new Scanner(System.in);
-
-        String aName = "Alice";
+        
         System.out.print("Name: ");
         String name = scanner1.nextLine();
        if (name.matches("Alice")) {
